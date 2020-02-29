@@ -8,8 +8,6 @@ import com.svatson.competitors.Competitor;
 import com.svatson.competitors.Human;
 import com.svatson.competitors.Robot;
 
-import java.util.concurrent.ConcurrentMap;
-
 public class Main {
     public static void main(String[] args) {
         Surmountable wall1 = new Wall(1);
@@ -37,7 +35,7 @@ public class Main {
                 }
             }
         }
-
+        System.out.println("\n Done!");
 
     }
 }
